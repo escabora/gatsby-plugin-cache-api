@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-plugin-cache-api",
+  "description": "Plugin for Gatsby to cache api",
+  "author": "Gabriel Escabora <gabrielescabora@gmail.com>",
+  "version": "1.0.0",
+  "repository": "git@github.com:escabora/gatsby-plugin-cache-api.git",
+  "license": "MIT",
+  "keywords": [
+    "cache-api",
+    "api-gatsby",
+    "gatsby",
+    "plugin",
+    "gatsby-plugin"
+  ],
+  "dependencies": {
+  }
+}
