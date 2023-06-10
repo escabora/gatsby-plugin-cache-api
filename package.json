@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-cache-api",
-  "description": "Plugin for Gatsby to cache api",
+  "description": "Plugin to cache any API with gatsby",
   "author": "Gabriel Escabora <gabrielescabora@gmail.com>",
   "version": "1.0.0",
   "repository": "git@github.com:escabora/gatsby-plugin-cache-api.git",
@@ -13,5 +13,6 @@
     "gatsby-plugin"
   ],
   "dependencies": {
+    "fs-extra": "^11.1.1"
   }
 }
