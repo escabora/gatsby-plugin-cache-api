@@ -6,7 +6,7 @@ const fse = require('fs-extra');
  * @param {Object} file - API object
  * @returns {Function} Returns asynchronous function to create the files
  **/
-async function cacheApi(pathOutput, nameOutPath, file) {
+const cacheApi = async ({ pathOutput, nameOutPath, file }) => {
   try {
     const pathName = `./public/${pathOutput}/${nameOutPath}`;
     fse.outputFileSync(pathName, JSON.stringify(file));
@@ -14,6 +14,6 @@ async function cacheApi(pathOutput, nameOutPath, file) {
   } catch (err) {
     throw new Error(err);
   }
-}
+};
 
 module.exports = cacheApi;
