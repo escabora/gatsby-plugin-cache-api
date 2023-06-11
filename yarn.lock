@@ -25,6 +25,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+typescritp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/typescritp/-/typescritp-1.0.0.tgz#7923ebbd3ec74f780633c8be2e8aa1d2ecac2b8f"
+  integrity sha512-88hSOM0JRNE+lY8LQvwebA6WCf54+FoDUQuNCuoBvHxu+tj76LteTUymKzwuS6VVAuBLfI5xcZyv88sj4yxDaw==
+
 universalify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
