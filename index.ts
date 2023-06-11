@@ -1,7 +1,7 @@
 const fse = require('fs-extra');
-const IcacheApi = require('./types')
+// const IcacheApi = require('./types')
 
-const cacheApi = async ({ pathOutput, nameOutPath, file }: typeof IcacheApi) => {
+const cacheApi = async ({ pathOutput, nameOutPath, file }) => {
   try {
     const pathName = `./public/${pathOutput}/${nameOutPath}`;
     fse.outputFileSync(pathName, JSON.stringify(file));
