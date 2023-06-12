@@ -49,7 +49,7 @@ const MyComponent = () => {
 
   }, [])
 
-  return <div> {breeds.map((breed)=> <p key={breeds}>{breeds}</p>)} </div>;
+  return <div> {breeds.map((breed)=> <p key={breed}>{breed}</p>)} </div>;
 };
 
 export default MyComponent;
